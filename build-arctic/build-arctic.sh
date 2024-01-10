@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Author		:	Erik Dubois
 # Website		:	https://www.erikdubois.be
