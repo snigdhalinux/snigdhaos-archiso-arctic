@@ -135,7 +135,7 @@ echo
 
 	echo
 	echo "Saving current archiso version to readme"
-	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../archiso.readme
+	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../archiso-arctic.readme
 	echo
 	echo "Making mkarchiso verbose"
 	sudo sed -i 's/quiet="y"/quiet="n"/g' /usr/bin/mkarchiso
@@ -156,7 +156,7 @@ echo
 	echo "Copying the Archiso folder to build work"
 	echo
 	mkdir $buildFolder
-	cp -r ../archiso $buildFolder/archiso
+	cp -r ../archiso-arctic $buildFolder/archiso-arctic
 
 echo
 echo "################################################################## "
@@ -172,34 +172,34 @@ echo "################################################################## "
 echo
 
 	echo "Deleting any files in /etc/skel"
-	rm -rf $buildFolder/archiso/airootfs/etc/skel/.bashrc 2> /dev/null
+	rm -rf $buildFolder/archiso-arctic/airootfs/etc/skel/.bashrc 2> /dev/null
 	echo
 
 	echo "Getting the last version of bashrc in /etc/skel"
 	echo
-	wget https://raw.githubusercontent.com/snigdhalinux/snigdhaos-archiso/master/archiso/airootfs/etc/skel/.bashrc -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
+	wget https://raw.githubusercontent.com/snigdhalinux/snigdhaos-archiso/master/archiso-arctic/airootfs/etc/skel/.bashrc -O $buildFolder/archiso-arctic/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
-	rm $buildFolder/archiso/packages.x86_64
-	#rm $buildFolder/archiso/packages-personal-repo.x86_64
+	rm $buildFolder/archiso-arctic/packages.x86_64
+	#rm $buildFolder/archiso-arctic/packages-personal-repo.x86_64
 	echo
 
 	echo "Copying the new packages.x86_64 file to the build folder"
-	cp -f ../archiso/packages.x86_64 $buildFolder/archiso/packages.x86_64
+	cp -f ../archiso-arctic/packages.x86_64 $buildFolder/archiso-arctic/packages.x86_64
 	echo
 
 	if [ $personalrepo == true ]; then
 		echo "Adding packages from your personal repository - packages-personal-repo.x86_64"
-		printf "\n" | sudo tee -a $buildFolder/archiso/packages.x86_64
-		cat ../archiso/packages-personal-repo.x86_64 | sudo tee -a $buildFolder/archiso/packages.x86_64
+		printf "\n" | sudo tee -a $buildFolder/archiso-arctic/packages.x86_64
+		cat ../archiso-arctic/packages-personal-repo.x86_64 | sudo tee -a $buildFolder/archiso-arctic/packages.x86_64
 	fi
 
 	if [ $personalrepo == true ]; then
 		echo "Adding our own repo to /etc/pacman.conf"
-		printf "\n" | sudo tee -a $buildFolder/archiso/pacman.conf
-		printf "\n" | sudo tee -a $buildFolder/archiso/airootfs/etc/pacman.conf
-		cat personal-repo | sudo tee -a $buildFolder/archiso/pacman.conf
-		cat personal-repo | sudo tee -a $buildFolder/archiso/airootfs/etc/pacman.conf
+		printf "\n" | sudo tee -a $buildFolder/archiso-arctic/pacman.conf
+		printf "\n" | sudo tee -a $buildFolder/archiso-arctic/airootfs/etc/pacman.conf
+		cat personal-repo | sudo tee -a $buildFolder/archiso-arctic/pacman.conf
+		cat personal-repo | sudo tee -a $buildFolder/archiso-arctic/airootfs/etc/pacman.conf
 	fi
 
 echo
@@ -229,21 +229,21 @@ echo
 	newname4='Snigdha'
 
 	#sddm.conf user-session
-	oldname5='Session=gnome'
-	newname5='Session='$dmDesktop
+	# oldname5='Session=gnome'
+	# newname5='Session='$dmDesktop
 
 	echo "Changing all references"
 	echo
-	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/archiso/profiledef.sh
-	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/archiso/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/archiso/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/archiso/airootfs/etc/hostname
-	# sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/archiso/airootfs/etc/sddm.conf
+	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/archiso-arctic/profiledef.sh
+	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/archiso-arctic/profiledef.sh
+	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/archiso-arctic/airootfs/etc/dev-rel
+	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/archiso-arctic/airootfs/etc/hostname
+	# sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/archiso-arctic/airootfs/etc/sddm.conf
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
+	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso-arctic/airootfs/etc/dev-rel
 
 
 echo
@@ -268,8 +268,8 @@ echo "################################################################## "
 echo
 
 	[ -d $outFolder ] || mkdir $outFolder
-	cd $buildFolder/archiso/
-	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso/
+	cd $buildFolder/archiso-arctic/
+	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso-arctic/
 
 
 
