@@ -272,7 +272,6 @@ echo
 	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso-arctic/
 
 
-
 echo
 echo "###################################################################"
 tput setaf 2
