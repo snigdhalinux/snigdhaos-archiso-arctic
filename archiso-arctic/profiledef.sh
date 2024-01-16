@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="snigdha"
-iso_label="SNIGDHA-OS"
-iso_publisher="Snigdha <https://www.snigdhaos.org>"
+iso_name="snigdhaos-arctic"
+iso_label="snigdhaos-arctic-v3.1.1"
+iso_publisher="Snigdha OS <http://www.snigdhaos.org>"
 iso_application="Snigdha OS Live/Rescue CD"
-iso_version="arctic"
+iso_version="v3.1.1"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
@@ -23,5 +23,5 @@ file_permissions=(
   ["/etc/polkit-1/rules.d"]="0:0:750"
   ["/etc/sudoers.d"]="0:0:750"
   ["/etc/grub.d/40_custom"]="0:0:755"
-  ["/etc/NetworkManager/dispatcher.d/09-timezone"]="0:0:755"
+  ["/usr/local/bin/snigdhaos-snapper"]="0:0:755"
 )
