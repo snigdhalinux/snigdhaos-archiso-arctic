@@ -10,6 +10,7 @@
 ##########################################################################
 # 			Configured For Snigdha OS -> Build Arctic ISO				 #
 ##########################################################################
+
 echo
 echo "################################################################## "
 tput setaf 2
@@ -25,9 +26,9 @@ echo
 	desktop="gnome"
 	dmDesktop="gnome"
 
-	snigdhaVersion='rolling'
+	snigdhaVersion='arctic'
 
-	isoLabel='snigdha-'$snigdhaVersion'-x86_64.iso'
+	isoLabel='snigdhaos-'$snigdhaVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 74-1"
@@ -215,18 +216,18 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="snigdha"'
-	newname1='iso_name="snigdha"'
+	oldname1='iso_name="snigdhaos-arctic"'
+	newname1='iso_name="snigdhaos-arctic"'
 
-	oldname2='iso_label="snigdha"'
-	newname2='iso_label="snigdha"'
+	oldname2='iso_label="snigdhaos-arctic-v3.1.1"'
+	newname2='iso_label="snigdhaos-arctic-v3.1.1"'
 
 	oldname3='Snigdha OS'
 	newname3='Snigdha OS'
 
 	#hostname
-	oldname4='Snigdha'
-	newname4='Snigdha'
+	oldname4='SnigdhaArctic'
+	newname4='SnigdhaArctic'
 
 	#sddm.conf user-session
 	# oldname5='Session=gnome'
@@ -234,10 +235,10 @@ echo
 
 	echo "Changing all references"
 	echo
-	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/archiso-arctic/profiledef.sh
-	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/archiso-arctic/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/archiso-arctic/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/archiso-arctic/airootfs/etc/hostname
+	# sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/archiso-arctic/profiledef.sh
+	# sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/archiso-arctic/profiledef.sh
+	# sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/archiso-arctic/airootfs/etc/dev-rel
+	# sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/archiso-arctic/airootfs/etc/hostname
 	# sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/archiso-arctic/airootfs/etc/sddm.conf
 
 	echo "Adding time to /etc/dev-rel"
