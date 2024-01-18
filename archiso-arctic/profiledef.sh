@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="snigdhaos-arctic"
-iso_label="snigdhaos-arctic-v3.1.1"
+iso_label="snigdhaos-arctic"
 iso_publisher="Snigdha OS <http://www.snigdhaos.org>"
 iso_application="Snigdha OS Live/Rescue CD"
 iso_version="v3.1.1"
