@@ -6,7 +6,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5fd3439e-0813-4195-98c3-d7f54e7fd59e" alt="project-screenshot" width="1920" height="1080/">
+<img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5fd3439e-0813-4195-98c3-d7f54e7fd59e" alt="project-screenshot" width="1920">
 
 <img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5a19d4f2-5ba1-4f08-8c0a-cf899b438c5d" alt="project-screenshot" width="1920" height="1080/">
 
