@@ -1,7 +1,6 @@
 <h1 align="center" id="title">Snigdha OS[Build: Arctic]</h1>
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/snigdhalinux/snigdhaos-archiso-arctic/total)
-
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/snigdhalinux)
 
 
