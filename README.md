@@ -1,10 +1,10 @@
 <h1 align="center" id="title">Snigdha OS[Build: Arctic]</h1>
 
-![Static Badge](https://img.shields.io/badge/ISO%20BUILD-STABLE-754ffe)
+<p align="center">![Static Badge](https://img.shields.io/badge/ISO%20BUILD-STABLE-754ffe)
 ![GitHub issues](https://img.shields.io/github/issues/snigdhalinux/snigdhaos-archiso-arctic)
 ![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/snigdhalinux/snigdhaos-archiso-arctic/v4.0/snigdhaos-arctic-v4.0-x86_64.iso)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/snigdhalinux)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnigdhaos.org)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnigdhaos.org)</p>
 
 <p align="center"><img src="https://socialify.git.ci/snigdhalinux/snigdhaos-archiso-arctic/image?description=1&amp;descriptionEditable=Arch%20Based%20Linux%20Distribution%20with%20Enhanced%20Performance%20by%20ZEN%20Kernel.%0AMade%20With%20%E2%9D%A4%EF%B8%8F%20in%20Bangladesh.&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fsnigdhalinux%2Fsnigdhaos-icon%2Fmaster%2Fusr%2Fshare%2Ficons%2Fsnigdhaos%2Fsnigdhaos-purple.svg&amp;name=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
