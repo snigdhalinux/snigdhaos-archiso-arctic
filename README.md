@@ -1,5 +1,7 @@
 <h1 align="center" id="title">Snigdha OS[Build: Arctic]</h1>
 
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsnigdhalinux%2Fsnigdhaos-archiso-arctic&labelColor=%2337d67a&countColor=%23f47373&style=plastic&labelStyle=lower)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fsnigdhalinux%2Fsnigdhaos-archiso-arctic)
+
 ![Static Badge](https://img.shields.io/badge/ISO%20BUILD-STABLE-754ffe)
 ![GitHub issues](https://img.shields.io/github/issues/snigdhalinux/snigdhaos-archiso-arctic)
 ![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/snigdhalinux/snigdhaos-archiso-arctic/v4.0/snigdhaos-arctic-v4.0-x86_64.iso)
