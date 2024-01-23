@@ -79,7 +79,6 @@ snigdhaos-keyring
 snigdhaos-neofetch-config
 snigdhaos-system-config
 snigdhaos-system-installation
-snigdhaos-vb-dependency
 snigdhaos-welcome
 snigdhaos-xdg-gnome
 gnome-keyring
@@ -107,4 +106,14 @@ qt5-xmlpatterns
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
+##########################################
+
+##########################################
+hyperv
+xf86-video-fbdev
+open-vm-tools
+xf86-video-vmware
+qemu-guest-agent
+spice-vdagent
+virtualbox-guest-utils
 ##########################################
