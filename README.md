@@ -1,8 +1,10 @@
 <h1 align="center" id="title">Snigdha OS[Build: Arctic]</h1>
 
+![Static Badge](https://img.shields.io/badge/ISO%20BUILD-STABLE-754ffe)
+![GitHub issues](https://img.shields.io/github/issues/snigdhalinux/snigdhaos-archiso-arctic)
 ![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/snigdhalinux/snigdhaos-archiso-arctic/v4.0/snigdhaos-arctic-v4.0-x86_64.iso)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/snigdhalinux)
-![GitHub issues](https://img.shields.io/github/issues/snigdhalinux/snigdhaos-archiso-arctic)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnigdhaos.org)
 
 
 
