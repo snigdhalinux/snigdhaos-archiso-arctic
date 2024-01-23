@@ -2,9 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/snigdhalinux/snigdhaos-archiso-arctic/image?description=1&amp;descriptionEditable=Arch%20Based%20Linux%20Distribution%20with%20Enhanced%20Performance%20by%20ZEN%20Kernel.%0AMade%20With%20%E2%9D%A4%EF%B8%8F%20in%20Bangladesh.&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fsnigdhalinux%2Fsnigdhaos-icon%2Fmaster%2Fusr%2Fshare%2Ficons%2Fsnigdhaos%2Fsnigdhaos-purple.svg&amp;name=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-<p id="description">Explore User Interface</p>
-
-<h2>Project Screenshots:</h2>
+<h1 align="center" id="title">USER INTERFACE</h1>
 
 <img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5fd3439e-0813-4195-98c3-d7f54e7fd59e" alt="project-screenshot" width="1920">
 
