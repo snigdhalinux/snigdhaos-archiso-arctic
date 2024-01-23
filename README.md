@@ -12,7 +12,7 @@
 
 <h1 align="center" id="title">USER INTERFACE</h1>
 
-<img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5fd3439e-0813-4195-98c3-d7f54e7fd59e" alt="project-screenshot" width="360">
+<p align="center"><img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5fd3439e-0813-4195-98c3-d7f54e7fd59e" alt="project-screenshot" width="360">
 
 <img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/5a19d4f2-5ba1-4f08-8c0a-cf899b438c5d" alt="project-screenshot" width="360">
 
@@ -32,4 +32,4 @@
 
 <img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/29dffc74-65c0-44c1-bdf6-d04b5f4bc24b" alt="project-screenshot" width="360">
 
-<img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/70f2cd4c-f038-4949-96e2-8d156138ed69" alt="project-screenshot" width="360">
+<img src="https://github.com/snigdhalinux/snigdhaos-gnome-background/assets/148610067/70f2cd4c-f038-4949-96e2-8d156138ed69" alt="project-screenshot" width="360"></p>
