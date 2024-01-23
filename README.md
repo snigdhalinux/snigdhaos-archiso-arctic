@@ -6,9 +6,7 @@
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/snigdhalinux)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnigdhaos.org)
 
-
-
-<p align="center"><img src="https://socialify.git.ci/snigdhalinux/snigdhaos-archiso-arctic/image?description=1&amp;descriptionEditable=Arch%20Based%20Linux%20Distribution%20with%20Enhanced%20Performance%20by%20ZEN%20Kernel.%0AMade%20With%20%E2%9D%A4%EF%B8%8F%20in%20Bangladesh.&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fsnigdhalinux%2Fsnigdhaos-icon%2Fmaster%2Fusr%2Fshare%2Ficons%2Fsnigdhaos%2Fsnigdhaos-purple.svg&amp;name=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/snigdhalinux/snigdhaos-archiso-arctic/image?description=1&amp;descriptionEditable=Arch%20Based%20Linux%20Distribution%20with%20Enhanced%20Performance%20by%20ZEN%20Kernel.%0AMade%20With%20%E2%9D%A4%EF%B8%8F%20in%20Bangladesh.&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fsnigdhalinux%2Fsnigdhaos-icon%2Fmaster%2Fusr%2Fshare%2Ficons%2Fsnigdhaos%2Fsnigdhaos-purple.svg&amp;name=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image" width="450"></p>
 
 <h1 align="center" id="title">USER INTERFACE</h1>
 
