@@ -73,15 +73,20 @@ snigdhaos-calamares
 snigdhaos-calamares-config
 snigdhaos-gnome-background
 snigdhaos-gnome-spec
+snigdhaos-gnome-ui
 snigdhaos-gnome-config
+snigdhaos-gtk-theme
 snigdhaos-grub-theme
 snigdhaos-keyring
 snigdhaos-neofetch-config
 snigdhaos-system-config
 snigdhaos-system-installation
+snigdhaos-updater
 snigdhaos-welcome
 snigdhaos-xdg-gnome
 gnome-keyring
+chaotic-keyring
+chaotic-mirrorlist
 ##########################################
 
 ##########################################
