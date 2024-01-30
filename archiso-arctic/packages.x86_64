@@ -121,3 +121,6 @@ qemu-guest-agent
 spice-vdagent
 virtualbox-guest-utils
 ##########################################
+
+##########################################
+nvidia-dkms
