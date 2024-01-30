@@ -4,6 +4,7 @@ arch-install-scripts
 base
 broadcom-wl-dkms
 btrfs-progs
+btrfs-assistant
 dhcpcd
 dialog
 dosfstools
@@ -78,6 +79,7 @@ snigdhaos-gnome-config
 snigdhaos-gtk-theme
 snigdhaos-grub-theme
 snigdhaos-keyring
+snigdhaos-lib
 snigdhaos-neofetch-config
 snigdhaos-system-config
 snigdhaos-system-installation
