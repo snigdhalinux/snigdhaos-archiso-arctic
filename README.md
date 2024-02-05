@@ -1,8 +1,6 @@
 <h1 align="center" id="title">Snigdha OS[Build: Arctic]</h1>
 
-<p align="center">
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/SnigdhaOS)
-</p>
 
 ![Static Badge](https://img.shields.io/badge/ISO%20BUILD-STABLE-754ffe)
 ![GitHub issues](https://img.shields.io/github/issues/snigdhalinux/snigdhaos-archiso-arctic)
