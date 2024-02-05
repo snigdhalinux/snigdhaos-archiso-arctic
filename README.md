@@ -12,7 +12,7 @@
 
 # Build Snigdha OS ISO
 
-To build **Snigdha OS** iso, you will require our `keyring`, `Server Url` and `Repository` as well as the `chaotic aur`.
+To build **Snigdha OS** iso, you will require our `keyring`, `Server Url` and `Repository` as well as the `chaotic-aur`.
 
 ## Requirements:
 - Any Arch Based Linux Distrbution. e.g: `ArchLinux`, `GarudaLinux`, `Manjaro` etc.
